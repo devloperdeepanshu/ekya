@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --baby-bear:#B79D74;
+  --bistre:#3D2B1F;
+  --black-raspberry:#4B1D3F;
+  --forestry:#2F5D50;
+  --moss-gardens:#6B8F71;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  margin:0;
+  padding:0;
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    sans-serif;
+
+  background:#F8F5F0;
+  color:var(--bistre);
+}
+
+*{
+  box-sizing:border-box;
+}
+
+::-webkit-scrollbar{
+  width:8px;
+  height:8px;
+}
+
+::-webkit-scrollbar-track{
+  background:#F8F5F0;
+}
+
+::-webkit-scrollbar-thumb{
+  background:var(--forestry);
+  border-radius:999px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background:var(--moss-gardens);
+}
+
+.scrollbar-hide::-webkit-scrollbar{
+  display:none;
+}
+
+.scrollbar-hide{
+  -ms-overflow-style:none;
+  scrollbar-width:none;
+}
+
+.section-heading{
+  color:var(--forestry);
+}
+
+.accent-text{
+  color:var(--black-raspberry);
+}
+
+.primary-btn{
+  background:var(--forestry);
+  color:white;
+  transition:0.3s;
+}
+
+.primary-btn:hover{
+  background:var(--moss-gardens);
+  transform:translateY(-2px);
+}
+
+.glass{
+  background:rgba(255,255,255,0.7);
+  backdrop-filter:blur(10px);
+}
