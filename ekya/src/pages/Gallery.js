@@ -17,8 +17,7 @@ cover: "/images/dog-drive/cover.jpg",
 images: [
 "/images/dog-drive/1.jpg",
 "/images/dog-drive/2.jpg",
-"/images/dog-drive/3.jpg",
-"/images/dog-drive/4.jpg"
+"/images/dog-drive/3.jpg"
 ]
 },
 {

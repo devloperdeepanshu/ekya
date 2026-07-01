@@ -14,14 +14,6 @@ function Events() {
   const pastEvents = [
     {
       id: 1,
-      title: "Dog Feeding Drive",
-      date: "6 june 2026",
-      image: "/images/event1.jpg",
-      description:
-        "Providing food and care to stray animals across the community."
-    },
-    {
-      id: 2,
       title: "Cleanliness Drive",
       date: "31 may 2026",
       image: "/images/event2.jpg",
@@ -29,7 +21,7 @@ function Events() {
         "Bringing volunteers together to clean public spaces."
     },
     {
-      id: 3,
+      id: 2,
       title: "Hygiene Workshop",
       date: "16 may 2026",
       image: "/images/gallery3.jpg",
@@ -37,12 +29,20 @@ function Events() {
         "Educational session conducted for students."
     },
     {
-      id: 4,
+      id: 3,
       title: "Donation Drive",
       date: "28 June 2025",
       image: "/images/event4.jpg",
       description:
         "Collecting and distributing essential items."
+    },
+      {
+      id: 4,
+      title: "Dog Feeding Drive",
+      date: "6 june 2026",
+      image: "/images/event1.jpg",
+      description:
+        "Providing food and care to stray animals across the community."
     }
   ];
 
