@@ -19,7 +19,7 @@ images: ["/images/co-founder.png"],
 name: "Vidita Saini",
 role: "Co-Founder",
 description:
-"Building opportunities for volunteers and strengthening community engagement."
+"she leads strategic initiatives, community programs, and partnerships to drive meaningful social impact."
 },
 {
 id: 3,
